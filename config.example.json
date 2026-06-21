@@ -1,0 +1,12 @@
+{
+  "companyName": "示例公司",
+  "googleSheetId": "把Google Sheet链接中的ID填到这里",
+  "ownerEmail": "ops@example.com",
+  "smtp": {
+    "user": "ops@example.com",
+    "host": "smtp.example.com",
+    "port": 465,
+    "secure": true,
+    "toEmail": "ops@example.com"
+  }
+}
