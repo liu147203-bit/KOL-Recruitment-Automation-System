@@ -1,5 +1,5 @@
 @echo off
 chcp 65001 >nul
 set "ROOT=%~dp0"
-powershell -NoProfile -ExecutionPolicy Bypass -File "%ROOT%install-and-configure.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%ROOT%bootstrap.ps1"
 pause
